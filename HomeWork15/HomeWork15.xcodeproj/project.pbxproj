@@ -13,6 +13,16 @@
 		0A69DC0D2C02041A0069DA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A69DC0B2C02041A0069DA45 /* Main.storyboard */; };
 		0A69DC0F2C02041F0069DA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A69DC0E2C02041F0069DA45 /* Assets.xcassets */; };
 		0A69DC122C02041F0069DA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A69DC102C02041F0069DA45 /* LaunchScreen.storyboard */; };
+		0A69DC1B2C10AB500069DA45 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC1A2C10AB500069DA45 /* MainViewController.swift */; };
+		0A69DC1D2C10AD920069DA45 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC1C2C10AD920069DA45 /* WhiteViewController.swift */; };
+		0A69DC1F2C10ADA20069DA45 /* BrownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC1E2C10ADA20069DA45 /* BrownViewController.swift */; };
+		0A69DC212C10ADDE0069DA45 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC202C10ADDE0069DA45 /* BlackViewController.swift */; };
+		0A69DC232C10EFA20069DA45 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC222C10EFA20069DA45 /* WellcomeViewController.swift */; };
+		0A69DC252C10F0910069DA45 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC242C10F0910069DA45 /* SignInViewController.swift */; };
+		0A69DC272C10F0A30069DA45 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC262C10F0A30069DA45 /* SignUpViewController.swift */; };
+		0A69DC292C10F0BC0069DA45 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC282C10F0BC0069DA45 /* YellowViewController.swift */; };
+		0A69DC2B2C10F0CE0069DA45 /*  RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC2A2C10F0CE0069DA45 /*  RedViewController.swift */; };
+		0A69DC2E2C10F0E90069DA45 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69DC2D2C10F0E90069DA45 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		0A69DC0E2C02041F0069DA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A69DC112C02041F0069DA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A69DC132C02041F0069DA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A69DC1A2C10AB500069DA45 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0A69DC1C2C10AD920069DA45 /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
+		0A69DC1E2C10ADA20069DA45 /* BrownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownViewController.swift; sourceTree = "<group>"; };
+		0A69DC202C10ADDE0069DA45 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
+		0A69DC222C10EFA20069DA45 /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
+		0A69DC242C10F0910069DA45 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0A69DC262C10F0A30069DA45 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0A69DC282C10F0BC0069DA45 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		0A69DC2A2C10F0CE0069DA45 /*  RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " RedViewController.swift"; sourceTree = "<group>"; };
+		0A69DC2D2C10F0E90069DA45 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 		0A69DC042C02041A0069DA45 /* HomeWork15 */ = {
 			isa = PBXGroup;
 			children = (
+				0A69DC192C10AB240069DA45 /* ViewControllers */,
 				0A69DC052C02041A0069DA45 /* AppDelegate.swift */,
 				0A69DC072C02041A0069DA45 /* SceneDelegate.swift */,
 				0A69DC092C02041A0069DA45 /* ViewController.swift */,
@@ -65,6 +86,47 @@
 				0A69DC132C02041F0069DA45 /* Info.plist */,
 			);
 			path = HomeWork15;
+			sourceTree = "<group>";
+		};
+		0A69DC192C10AB240069DA45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A69DC2C2C10F0D80069DA45 /* 1 */,
+				0A69DC222C10EFA20069DA45 /* WellcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A69DC2C2C10F0D80069DA45 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0A69DC2F2C10F1BD0069DA45 /* 2 */,
+				0A69DC242C10F0910069DA45 /* SignInViewController.swift */,
+				0A69DC262C10F0A30069DA45 /* SignUpViewController.swift */,
+				0A69DC1A2C10AB500069DA45 /* MainViewController.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		0A69DC2F2C10F1BD0069DA45 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A69DC302C10F2060069DA45 /* 3 */,
+				0A69DC1C2C10AD920069DA45 /* WhiteViewController.swift */,
+				0A69DC1E2C10ADA20069DA45 /* BrownViewController.swift */,
+				0A69DC202C10ADDE0069DA45 /* BlackViewController.swift */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		0A69DC302C10F2060069DA45 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				0A69DC282C10F0BC0069DA45 /* YellowViewController.swift */,
+				0A69DC2A2C10F0CE0069DA45 /*  RedViewController.swift */,
+				0A69DC2D2C10F0E90069DA45 /* GreenViewController.swift */,
+			);
+			path = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A69DC292C10F0BC0069DA45 /* YellowViewController.swift in Sources */,
+				0A69DC2B2C10F0CE0069DA45 /*  RedViewController.swift in Sources */,
 				0A69DC0A2C02041A0069DA45 /* ViewController.swift in Sources */,
+				0A69DC1F2C10ADA20069DA45 /* BrownViewController.swift in Sources */,
 				0A69DC062C02041A0069DA45 /* AppDelegate.swift in Sources */,
+				0A69DC212C10ADDE0069DA45 /* BlackViewController.swift in Sources */,
+				0A69DC2E2C10F0E90069DA45 /* GreenViewController.swift in Sources */,
+				0A69DC272C10F0A30069DA45 /* SignUpViewController.swift in Sources */,
 				0A69DC082C02041A0069DA45 /* SceneDelegate.swift in Sources */,
+				0A69DC252C10F0910069DA45 /* SignInViewController.swift in Sources */,
+				0A69DC1D2C10AD920069DA45 /* WhiteViewController.swift in Sources */,
+				0A69DC232C10EFA20069DA45 /* WellcomeViewController.swift in Sources */,
+				0A69DC1B2C10AB500069DA45 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
